@@ -1,16 +1,739 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="220a88dd-82b5-4466-834d-9f7e123b4e95" name="更改" comment="" />
+    <list default="true" id="220a88dd-82b5-4466-834d-9f7e123b4e95" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE/bug_report.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE/config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE/feature_request.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE/general_issue.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/dependabot.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/pull_request_template.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/workflows/gh-pages.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/workflows/issues-autoresolve.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/workflows/python-ci.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/workflows/python-integration-tests.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/workflows/python-notebook-tests.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/workflows/python-publish.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/workflows/python-smoke-tests.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/workflows/semver.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/workflows/spellcheck.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/graphrag2.7.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.semversioner/0.1.0.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.semversioner/0.2.0.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.semversioner/0.2.1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.semversioner/0.2.2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.semversioner/0.3.0.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.semversioner/0.3.1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.semversioner/0.3.2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.semversioner/0.3.3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.semversioner/0.3.4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.semversioner/0.3.5.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.semversioner/0.3.6.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.semversioner/0.4.0.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.semversioner/0.4.1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.semversioner/0.5.0.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.semversioner/0.9.0.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.semversioner/1.0.0.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.semversioner/1.0.1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.semversioner/1.1.0.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.semversioner/1.1.1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.semversioner/1.1.2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.semversioner/1.2.0.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.semversioner/2.0.0.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.semversioner/2.1.0.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.semversioner/2.2.0.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.semversioner/2.2.1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.semversioner/2.3.0.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.semversioner/2.4.0.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.semversioner/2.5.0.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.semversioner/2.6.0.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.semversioner/2.7.0.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vscode/extensions.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vscode/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vsts-ci.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CODEOWNERS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CODE_OF_CONDUCT.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CONTRIBUTING.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEVELOPING.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RAI_TRANSPARENCY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SECURITY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SUPPORT.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/breaking-changes.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cspell.config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dictionary.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/blog_posts.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/cli.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/config/env_vars.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/config/init.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/config/models.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/config/overview.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/config/yaml.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/data/operation_dulce/ABOUT.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/data/operation_dulce/Operation Dulce v2 1 1.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/data/operation_dulce/dataset.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/developing.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/examples_notebooks/api_overview.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/examples_notebooks/custom_vector_store.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/examples_notebooks/drift_search.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/examples_notebooks/global_search.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/examples_notebooks/global_search_with_dynamic_community_selection.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/examples_notebooks/index_migration_to_v1.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/examples_notebooks/index_migration_to_v2.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/examples_notebooks/input_documents.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/examples_notebooks/inputs/operation dulce/ABOUT.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/examples_notebooks/inputs/operation dulce/Operation Dulce v2 1 1.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/examples_notebooks/inputs/operation dulce/communities.parquet" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/examples_notebooks/inputs/operation dulce/community_reports.parquet" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/examples_notebooks/inputs/operation dulce/covariates.parquet" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/examples_notebooks/inputs/operation dulce/documents.parquet" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/examples_notebooks/inputs/operation dulce/entities.parquet" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/examples_notebooks/inputs/operation dulce/lancedb/default-community-full_content.lance/_transactions/0-2fed1d8b-daac-41b0-a93a-e115cda75be3.txn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/examples_notebooks/inputs/operation dulce/lancedb/default-community-full_content.lance/_transactions/1-61dbb7c2-aec3-4796-b223-941fc7cc93cc.txn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/examples_notebooks/inputs/operation dulce/lancedb/default-community-full_content.lance/_transactions/2-60012692-a153-48f9-8f4e-c479b44cbf3f.txn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/examples_notebooks/inputs/operation dulce/lancedb/default-community-full_content.lance/_transactions/3-0d2dc9a1-094f-4220-83c7-6ad6f26fac2b.txn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/examples_notebooks/inputs/operation dulce/lancedb/default-community-full_content.lance/_versions/1.manifest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/examples_notebooks/inputs/operation dulce/lancedb/default-community-full_content.lance/_versions/2.manifest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/examples_notebooks/inputs/operation dulce/lancedb/default-community-full_content.lance/_versions/3.manifest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/examples_notebooks/inputs/operation dulce/lancedb/default-community-full_content.lance/_versions/4.manifest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/examples_notebooks/inputs/operation dulce/lancedb/default-community-full_content.lance/data/1e7b2d94-ed06-4aa0-b22e-86a71d416bc6.lance" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/examples_notebooks/inputs/operation dulce/lancedb/default-community-full_content.lance/data/1ed9f301-ce30-46a8-8c0b-9c2a60a3cf43.lance" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/examples_notebooks/inputs/operation dulce/lancedb/default-entity-description.lance/_transactions/0-92c031e5-7558-451e-9d0f-f5514db9616d.txn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/examples_notebooks/inputs/operation dulce/lancedb/default-entity-description.lance/_transactions/1-7b3cb8d8-3512-4584-a003-91838fed8911.txn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/examples_notebooks/inputs/operation dulce/lancedb/default-entity-description.lance/_transactions/2-7de627d2-4c57-49e9-bf73-c17a9582ead4.txn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/examples_notebooks/inputs/operation dulce/lancedb/default-entity-description.lance/_transactions/3-9ad29d69-9a69-43a8-8b26-252ea267958d.txn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/examples_notebooks/inputs/operation dulce/lancedb/default-entity-description.lance/_versions/1.manifest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/examples_notebooks/inputs/operation dulce/lancedb/default-entity-description.lance/_versions/2.manifest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/examples_notebooks/inputs/operation dulce/lancedb/default-entity-description.lance/_versions/3.manifest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/examples_notebooks/inputs/operation dulce/lancedb/default-entity-description.lance/_versions/4.manifest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/examples_notebooks/inputs/operation dulce/lancedb/default-entity-description.lance/data/a34575c4-5260-457f-bebe-3f40bc0e2ee3.lance" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/examples_notebooks/inputs/operation dulce/lancedb/default-entity-description.lance/data/eabd7580-86f5-4022-8aa7-fe0aff816d98.lance" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/examples_notebooks/inputs/operation dulce/lancedb/default-text_unit-text.lance/_transactions/0-fd0434ac-e5cd-4ddd-9dd5-e5048d4edb59.txn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/examples_notebooks/inputs/operation dulce/lancedb/default-text_unit-text.lance/_transactions/1-14bb4b1d-cc00-420b-9b14-3626f0bd8c0b.txn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/examples_notebooks/inputs/operation dulce/lancedb/default-text_unit-text.lance/_transactions/2-8e74264c-f72d-44f5-a6f4-b3b61ae6a43b.txn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/examples_notebooks/inputs/operation dulce/lancedb/default-text_unit-text.lance/_transactions/3-7516fb71-9db3-4666-bdef-ea04c1eb9697.txn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/examples_notebooks/inputs/operation dulce/lancedb/default-text_unit-text.lance/_versions/1.manifest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/examples_notebooks/inputs/operation dulce/lancedb/default-text_unit-text.lance/_versions/2.manifest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/examples_notebooks/inputs/operation dulce/lancedb/default-text_unit-text.lance/_versions/3.manifest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/examples_notebooks/inputs/operation dulce/lancedb/default-text_unit-text.lance/_versions/4.manifest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/examples_notebooks/inputs/operation dulce/lancedb/default-text_unit-text.lance/data/2794bf5b-de3d-4202-ab16-e76bc27c8e6a.lance" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/examples_notebooks/inputs/operation dulce/lancedb/default-text_unit-text.lance/data/2f74c8e8-3f35-4209-889c-a13cf0780eb3.lance" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/examples_notebooks/inputs/operation dulce/relationships.parquet" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/examples_notebooks/inputs/operation dulce/text_units.parquet" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/examples_notebooks/local_search.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/examples_notebooks/multi_index_search.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/get_started.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/GraphRag-Figure1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/auto-tune-diagram.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/drift-search-diagram.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/pipeline-running.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/viz_guide/gephi-appearance-pane.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/viz_guide/gephi-initial-graph-example.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/viz_guide/gephi-layout-forceatlas2-pane.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/viz_guide/gephi-layout-pane.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/viz_guide/gephi-network-overview-settings.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/index/architecture.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/index/byog.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/index/default_dataflow.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/index/inputs.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/index/methods.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/index/outputs.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/index/overview.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/prompt_tuning/auto_prompt_tuning.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/prompt_tuning/manual_prompt_tuning.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/prompt_tuning/overview.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/query/drift_search.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/query/global_search.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/query/local_search.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/query/multi_index_search.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/query/notebooks/overview.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/query/overview.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/query/question_generation.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/scripts/create_cookie_banner.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/stylesheets/extra.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/visualization_guide.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples_notebooks/community_contrib/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples_notebooks/community_contrib/neo4j/graphrag_import_neo4j_cypher.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples_notebooks/community_contrib/yfiles-jupyter-graphs/graph-visualization.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples_notebooks/inputs/operation dulce/lancedb/entity_description_embeddings.lance/_latest.manifest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples_notebooks/inputs/operation dulce/lancedb/entity_description_embeddings.lance/_transactions/0-498c6e24-dd0a-42b9-8f7e-5e3d2ab258b0.txn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples_notebooks/inputs/operation dulce/lancedb/entity_description_embeddings.lance/_transactions/1-bf5aa024-a229-461f-8d78-699841a302fe.txn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples_notebooks/inputs/operation dulce/lancedb/entity_description_embeddings.lance/_versions/1.manifest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples_notebooks/inputs/operation dulce/lancedb/entity_description_embeddings.lance/_versions/2.manifest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples_notebooks/inputs/operation dulce/lancedb/entity_description_embeddings.lance/data/fe64774f-5412-4c9c-8dea-f6ed55c81119.lance" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/__main__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/api/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/api/index.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/api/prompt_tune.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/api/query.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/cache/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/cache/factory.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/cache/json_pipeline_cache.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/cache/memory_pipeline_cache.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/cache/noop_pipeline_cache.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/cache/pipeline_cache.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/callbacks/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/callbacks/console_workflow_callbacks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/callbacks/llm_callbacks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/callbacks/noop_query_callbacks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/callbacks/noop_workflow_callbacks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/callbacks/query_callbacks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/callbacks/workflow_callbacks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/callbacks/workflow_callbacks_manager.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/cli/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/cli/index.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/cli/initialize.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/cli/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/cli/prompt_tune.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/cli/query.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/config/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/config/create_graphrag_config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/config/defaults.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/config/embeddings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/config/enums.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/config/environment_reader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/config/errors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/config/get_embedding_settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/config/init_content.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/config/load_config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/config/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/config/models/basic_search_config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/config/models/cache_config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/config/models/chunking_config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/config/models/cluster_graph_config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/config/models/community_reports_config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/config/models/drift_search_config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/config/models/embed_graph_config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/config/models/extract_claims_config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/config/models/extract_graph_config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/config/models/extract_graph_nlp_config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/config/models/global_search_config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/config/models/graph_rag_config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/config/models/input_config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/config/models/language_model_config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/config/models/local_search_config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/config/models/prune_graph_config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/config/models/reporting_config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/config/models/snapshots_config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/config/models/storage_config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/config/models/summarize_descriptions_config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/config/models/text_embedding_config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/config/models/umap_config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/config/models/vector_store_config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/config/models/vector_store_schema_config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/config/read_dotenv.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/data_model/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/data_model/community.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/data_model/community_report.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/data_model/covariate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/data_model/document.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/data_model/entity.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/data_model/identified.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/data_model/named.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/data_model/relationship.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/data_model/schemas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/data_model/text_unit.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/data_model/types.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/factory/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/factory/factory.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/input/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/input/csv.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/input/factory.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/input/json.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/input/text.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/input/util.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/operations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/operations/build_noun_graph/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/operations/build_noun_graph/build_noun_graph.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/operations/build_noun_graph/np_extractors/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/operations/build_noun_graph/np_extractors/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/operations/build_noun_graph/np_extractors/cfg_extractor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/operations/build_noun_graph/np_extractors/factory.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/operations/build_noun_graph/np_extractors/np_validator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/operations/build_noun_graph/np_extractors/regex_extractor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/operations/build_noun_graph/np_extractors/resource_loader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/operations/build_noun_graph/np_extractors/stop_words.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/operations/build_noun_graph/np_extractors/syntactic_parsing_extractor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/operations/chunk_text/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/operations/chunk_text/bootstrap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/operations/chunk_text/chunk_text.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/operations/chunk_text/strategies.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/operations/chunk_text/typing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/operations/cluster_graph.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/operations/compute_degree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/operations/compute_edge_combined_degree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/operations/create_graph.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/operations/embed_graph/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/operations/embed_graph/embed_graph.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/operations/embed_graph/embed_node2vec.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/operations/embed_graph/typing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/operations/embed_text/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/operations/embed_text/embed_text.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/operations/embed_text/strategies/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/operations/embed_text/strategies/mock.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/operations/embed_text/strategies/openai.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/operations/embed_text/strategies/typing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/operations/extract_covariates/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/operations/extract_covariates/claim_extractor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/operations/extract_covariates/extract_covariates.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/operations/extract_covariates/typing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/operations/extract_graph/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/operations/extract_graph/extract_graph.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/operations/extract_graph/graph_extractor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/operations/extract_graph/graph_intelligence_strategy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/operations/extract_graph/typing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/operations/finalize_community_reports.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/operations/finalize_entities.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/operations/finalize_relationships.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/operations/graph_to_dataframes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/operations/layout_graph/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/operations/layout_graph/layout_graph.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/operations/layout_graph/typing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/operations/layout_graph/umap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/operations/layout_graph/zero.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/operations/prune_graph.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/operations/snapshot_graphml.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/operations/summarize_communities/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/operations/summarize_communities/build_mixed_context.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/operations/summarize_communities/community_reports_extractor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/operations/summarize_communities/explode_communities.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/operations/summarize_communities/graph_context/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/operations/summarize_communities/graph_context/context_builder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/operations/summarize_communities/graph_context/sort_context.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/operations/summarize_communities/strategies.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/operations/summarize_communities/summarize_communities.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/operations/summarize_communities/text_unit_context/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/operations/summarize_communities/text_unit_context/context_builder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/operations/summarize_communities/text_unit_context/prep_text_units.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/operations/summarize_communities/text_unit_context/sort_context.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/operations/summarize_communities/typing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/operations/summarize_communities/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/operations/summarize_descriptions/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/operations/summarize_descriptions/description_summary_extractor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/operations/summarize_descriptions/graph_intelligence_strategy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/operations/summarize_descriptions/summarize_descriptions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/operations/summarize_descriptions/typing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/run/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/run/run_pipeline.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/run/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/text_splitting/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/text_splitting/check_token_limit.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/text_splitting/text_splitting.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/typing/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/typing/context.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/typing/error_handler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/typing/pipeline.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/typing/pipeline_run_result.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/typing/state.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/typing/stats.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/typing/workflow.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/update/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/update/communities.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/update/entities.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/update/incremental_index.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/update/relationships.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/utils/dataframes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/utils/derive_from_rows.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/utils/dicts.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/utils/graphs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/utils/hashing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/utils/is_null.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/utils/stable_lcc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/utils/string.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/utils/uuid.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/validate_config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/workflows/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/workflows/create_base_text_units.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/workflows/create_communities.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/workflows/create_community_reports.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/workflows/create_community_reports_text.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/workflows/create_final_documents.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/workflows/create_final_text_units.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/workflows/extract_covariates.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/workflows/extract_graph.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/workflows/extract_graph_nlp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/workflows/factory.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/workflows/finalize_graph.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/workflows/generate_text_embeddings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/workflows/load_input_documents.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/workflows/load_update_documents.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/workflows/prune_graph.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/workflows/update_clean_state.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/workflows/update_communities.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/workflows/update_community_reports.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/workflows/update_covariates.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/workflows/update_entities_relationships.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/workflows/update_final_documents.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/workflows/update_text_embeddings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/index/workflows/update_text_units.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/language_model/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/language_model/cache/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/language_model/cache/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/language_model/events/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/language_model/events/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/language_model/factory.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/language_model/manager.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/language_model/protocol/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/language_model/protocol/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/language_model/providers/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/language_model/providers/fnllm/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/language_model/providers/fnllm/cache.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/language_model/providers/fnllm/events.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/language_model/providers/fnllm/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/language_model/providers/fnllm/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/language_model/providers/litellm/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/language_model/providers/litellm/chat_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/language_model/providers/litellm/embedding_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/language_model/providers/litellm/get_cache_key.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/language_model/providers/litellm/request_wrappers/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/language_model/providers/litellm/request_wrappers/with_cache.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/language_model/providers/litellm/request_wrappers/with_logging.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/language_model/providers/litellm/request_wrappers/with_rate_limiter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/language_model/providers/litellm/request_wrappers/with_retries.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/language_model/providers/litellm/services/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/language_model/providers/litellm/services/rate_limiter/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/language_model/providers/litellm/services/rate_limiter/rate_limiter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/language_model/providers/litellm/services/rate_limiter/rate_limiter_factory.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/language_model/providers/litellm/services/rate_limiter/static_rate_limiter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/language_model/providers/litellm/services/retry/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/language_model/providers/litellm/services/retry/exponential_retry.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/language_model/providers/litellm/services/retry/incremental_wait_retry.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/language_model/providers/litellm/services/retry/native_wait_retry.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/language_model/providers/litellm/services/retry/random_wait_retry.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/language_model/providers/litellm/services/retry/retry.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/language_model/providers/litellm/services/retry/retry_factory.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/language_model/providers/litellm/types.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/language_model/response/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/language_model/response/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/language_model/response/base.pyi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/logger/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/logger/blob_workflow_logger.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/logger/factory.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/logger/progress.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/logger/standard_logging.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/prompt_tune/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/prompt_tune/defaults.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/prompt_tune/generator/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/prompt_tune/generator/community_report_rating.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/prompt_tune/generator/community_report_summarization.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/prompt_tune/generator/community_reporter_role.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/prompt_tune/generator/domain.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/prompt_tune/generator/entity_relationship.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/prompt_tune/generator/entity_summarization_prompt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/prompt_tune/generator/entity_types.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/prompt_tune/generator/extract_graph_prompt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/prompt_tune/generator/language.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/prompt_tune/generator/persona.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/prompt_tune/loader/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/prompt_tune/loader/input.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/prompt_tune/prompt/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/prompt_tune/prompt/community_report_rating.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/prompt_tune/prompt/community_reporter_role.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/prompt_tune/prompt/domain.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/prompt_tune/prompt/entity_relationship.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/prompt_tune/prompt/entity_types.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/prompt_tune/prompt/language.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/prompt_tune/prompt/persona.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/prompt_tune/template/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/prompt_tune/template/community_report_summarization.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/prompt_tune/template/entity_summarization.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/prompt_tune/template/extract_graph.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/prompt_tune/types.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/prompts/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/prompts/index/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/prompts/index/community_report.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/prompts/index/community_report_text_units.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/prompts/index/extract_claims.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/prompts/index/extract_graph.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/prompts/index/summarize_descriptions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/prompts/query/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/prompts/query/basic_search_system_prompt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/prompts/query/drift_search_system_prompt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/prompts/query/global_search_knowledge_system_prompt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/prompts/query/global_search_map_system_prompt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/prompts/query/global_search_reduce_system_prompt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/prompts/query/local_search_system_prompt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/prompts/query/question_gen_system_prompt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/py.typed" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/query/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/query/context_builder/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/query/context_builder/builders.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/query/context_builder/community_context.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/query/context_builder/conversation_history.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/query/context_builder/dynamic_community_selection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/query/context_builder/entity_extraction.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/query/context_builder/local_context.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/query/context_builder/rate_prompt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/query/context_builder/rate_relevancy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/query/context_builder/source_context.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/query/factory.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/query/indexer_adapters.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/query/input/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/query/input/loaders/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/query/input/loaders/dfs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/query/input/loaders/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/query/input/retrieval/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/query/input/retrieval/community_reports.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/query/input/retrieval/covariates.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/query/input/retrieval/entities.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/query/input/retrieval/relationships.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/query/input/retrieval/text_units.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/query/llm/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/query/llm/text_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/query/question_gen/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/query/question_gen/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/query/question_gen/local_gen.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/query/structured_search/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/query/structured_search/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/query/structured_search/basic_search/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/query/structured_search/basic_search/basic_context.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/query/structured_search/basic_search/search.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/query/structured_search/drift_search/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/query/structured_search/drift_search/action.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/query/structured_search/drift_search/drift_context.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/query/structured_search/drift_search/primer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/query/structured_search/drift_search/search.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/query/structured_search/drift_search/state.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/query/structured_search/global_search/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/query/structured_search/global_search/community_context.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/query/structured_search/global_search/search.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/query/structured_search/local_search/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/query/structured_search/local_search/mixed_context.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/query/structured_search/local_search/search.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/storage/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/storage/blob_pipeline_storage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/storage/cosmosdb_pipeline_storage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/storage/factory.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/storage/file_pipeline_storage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/storage/memory_pipeline_storage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/storage/pipeline_storage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/tokenizer/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/tokenizer/get_tokenizer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/tokenizer/litellm_tokenizer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/tokenizer/tiktoken_tokenizer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/tokenizer/tokenizer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/utils/api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/utils/cli.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/utils/storage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/vector_stores/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/vector_stores/azure_ai_search.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/vector_stores/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/vector_stores/cosmosdb.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/vector_stores/factory.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphrag/vector_stores/lancedb.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mkdocs.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/semver-check.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/spellcheck.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/start-azurite.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/input/technology_companies.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/fixtures/azure/config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/fixtures/azure/input/ABOUT.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/fixtures/azure/input/dulce.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/fixtures/azure/settings.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/fixtures/min-csv/config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/fixtures/min-csv/input/ABOUT.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/fixtures/min-csv/input/dulce.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/fixtures/min-csv/settings.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/fixtures/text/config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/fixtures/text/input/ABOUT.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/fixtures/text/input/dulce.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/fixtures/text/prompts/community_report.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/fixtures/text/settings.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/integration/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/integration/cache/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/integration/cache/test_factory.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/integration/language_model/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/integration/language_model/test_factory.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/integration/logging/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/integration/logging/test_factory.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/integration/logging/test_standard_logging.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/integration/storage/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/integration/storage/test_blob_pipeline_storage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/integration/storage/test_cosmosdb_storage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/integration/storage/test_factory.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/integration/storage/test_file_pipeline_storage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/integration/vector_stores/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/integration/vector_stores/test_azure_ai_search.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/integration/vector_stores/test_cosmosdb.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/integration/vector_stores/test_factory.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/integration/vector_stores/test_lancedb.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/mock_provider.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/notebook/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/notebook/test_notebooks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/smoke/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/smoke/test_fixtures.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/config/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/config/fixtures/minimal_config/settings.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/config/fixtures/minimal_config_missing_env_var/settings.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/config/fixtures/timestamp_dirs/20240812-120000/empty.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/config/prompt-a.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/config/prompt-b.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/config/prompt-c.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/config/prompt-d.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/config/test_config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/config/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/indexing/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/indexing/cache/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/indexing/cache/test_file_pipeline_cache.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/indexing/graph/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/indexing/graph/extractors/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/indexing/graph/extractors/community_reports/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/indexing/graph/extractors/community_reports/test_sort_context.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/indexing/graph/utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/indexing/graph/utils/test_stable_lcc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/indexing/input/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/indexing/input/data/multiple-csvs/input1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/indexing/input/data/multiple-csvs/input2.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/indexing/input/data/multiple-csvs/input3.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/indexing/input/data/multiple-jsons/input1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/indexing/input/data/multiple-jsons/input2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/indexing/input/data/multiple-txts/input1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/indexing/input/data/multiple-txts/input2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/indexing/input/data/one-csv/input.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/indexing/input/data/one-json-multiple-objects/input.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/indexing/input/data/one-json-one-object/input.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/indexing/input/data/one-txt/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/indexing/input/test_csv_loader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/indexing/input/test_json_loader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/indexing/input/test_txt_loader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/indexing/operations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/indexing/operations/chunk_text/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/indexing/operations/chunk_text/test_chunk_text.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/indexing/operations/chunk_text/test_strategies.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/indexing/test_init_content.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/indexing/text_splitting/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/indexing/text_splitting/test_text_splitting.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/indexing/verbs/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/indexing/verbs/entities/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/indexing/verbs/entities/extraction/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/indexing/verbs/entities/extraction/strategies/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/indexing/verbs/entities/extraction/strategies/graph_intelligence/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/indexing/verbs/entities/extraction/strategies/graph_intelligence/test_gi_entity_extraction.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/indexing/verbs/helpers/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/indexing/verbs/helpers/mock_llm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/litellm_services/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/litellm_services/test_rate_limiter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/litellm_services/test_retries.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/litellm_services/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/query/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/query/context_builder/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/query/context_builder/test_entity_extraction.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/query/data/defaults/output/20240812-120000/empty.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/query/data/defaults/output/20240812-121000/empty.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/query/data/empty/something-else/empty.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/query/data/hidden/output/.another/empty.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/query/data/hidden/output/.hidden" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/query/data/hidden/output/20240812-120000/empty.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/query/data/hidden/output/20240812-121000/empty.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/query/data/non-numeric/output/20240812-120000/empty.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/query/data/non-numeric/output/20240812-121000/empty.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/query/data/non-numeric/output/something-else/empty.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/query/input/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/query/input/retrieval/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/query/input/retrieval/test_entities.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/utils/test_embeddings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/utils/test_encoding.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/verbs/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/verbs/data/communities.parquet" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/verbs/data/community_reports.parquet" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/verbs/data/covariates.parquet" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/verbs/data/documents.parquet" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/verbs/data/entities.parquet" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/verbs/data/relationships.parquet" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/verbs/data/text_units.parquet" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/verbs/data/text_units_metadata.parquet" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/verbs/data/text_units_metadata_included_chunk.parquet" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/verbs/test_create_base_text_units.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/verbs/test_create_communities.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/verbs/test_create_community_reports.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/verbs/test_create_final_documents.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/verbs/test_create_final_text_units.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/verbs/test_extract_covariates.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/verbs/test_extract_graph.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/verbs/test_extract_graph_nlp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/verbs/test_finalize_graph.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/verbs/test_generate_text_embeddings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/verbs/test_pipeline_state.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/verbs/test_prune_graph.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/verbs/util.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unified-search-app/.vsts-ci.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unified-search-app/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unified-search-app/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unified-search-app/app/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unified-search-app/app/app_logic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unified-search-app/app/data_config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unified-search-app/app/home_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unified-search-app/app/knowledge_loader/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unified-search-app/app/knowledge_loader/data_prep.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unified-search-app/app/knowledge_loader/data_sources/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unified-search-app/app/knowledge_loader/data_sources/blob_source.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unified-search-app/app/knowledge_loader/data_sources/default.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unified-search-app/app/knowledge_loader/data_sources/loader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unified-search-app/app/knowledge_loader/data_sources/local_source.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unified-search-app/app/knowledge_loader/data_sources/typing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unified-search-app/app/knowledge_loader/model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unified-search-app/app/rag/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unified-search-app/app/rag/typing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unified-search-app/app/state/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unified-search-app/app/state/query_variable.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unified-search-app/app/state/session_variable.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unified-search-app/app/state/session_variables.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unified-search-app/app/ui/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unified-search-app/app/ui/full_graph.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unified-search-app/app/ui/questions_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unified-search-app/app/ui/report_details.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unified-search-app/app/ui/report_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unified-search-app/app/ui/search.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unified-search-app/app/ui/sidebar.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unified-search-app/images/image-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unified-search-app/images/image-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unified-search-app/images/image-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unified-search-app/images/image-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unified-search-app/pyproject.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unified-search-app/uv.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uv.lock" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/test/input/technology_companies.txt" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="3FqojsFtMotC970cFVekwOeyzyw" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -19,10 +742,25 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/liulu/liulu_test_project/graphrag2.7/test/input",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\liulu\liulu_test_project\graphrag2.7\test\input" />
+      <recent name="D:\liulu\liulu_test_project\graphrag2.7" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -38,7 +776,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1782812098513</updated>
-      <workItem from="1782812099622" duration="2000" />
+      <workItem from="1782812099622" duration="6879000" />
+      <workItem from="1782868693002" duration="484000" />
+      <workItem from="1782869193401" duration="607000" />
+      <workItem from="1782869888673" duration="180000" />
     </task>
     <servers />
   </component>
